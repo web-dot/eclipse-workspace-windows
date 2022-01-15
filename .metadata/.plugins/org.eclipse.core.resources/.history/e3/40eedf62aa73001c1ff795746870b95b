@@ -1,0 +1,10 @@
+id,first_name,last_name,date_of_birth,ethnicity,gender
+1,John,Doe,Jan-01,Hispanic,M
+2,Jane,Smith,May-01,Hispanic,F
+3,Sarah,Thomas,Feb-02,Hispanic,M
+4,Frank,Brown,Mar-02,Race/ethnicity unknown,M
+5,Mike,Davis,Jan-01,White,F
+6,Jennifer,Wilson,Jan-02,Asian,M
+7,Jessica,Garcia,Jan-00,White,F
+8,Fred,Clark,Jul-99,Hispanic,F
+9,Bob,Lopez,Apr-98,White,F

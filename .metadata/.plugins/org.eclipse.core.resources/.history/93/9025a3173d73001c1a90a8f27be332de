@@ -1,0 +1,14 @@
+package com.spring.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+@Configuration
+@ComponentScan({"com.spring.config"})
+public class AppConfig {
+
+	public InternalResourceViewResolver viewResolver() {
+		
+	}
+}

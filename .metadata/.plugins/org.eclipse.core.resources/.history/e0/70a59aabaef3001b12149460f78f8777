@@ -1,0 +1,10 @@
+package com.uttara.practical02;
+
+public class PrintTables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

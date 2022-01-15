@@ -1,0 +1,17 @@
+package com.spring.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MessageService implements Service {
+
+	public MessageService() {
+		System.out.println("in MSImpl no-arg constr");
+	}
+	
+	public String getJoke() {
+		System.out.println("in MSImpl->getJoke()");
+		return null;
+	}
+
+}

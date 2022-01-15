@@ -1,0 +1,19 @@
+package com.spring.config;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class HomeControllerTest {
+
+	@Test
+	void testGetAllStudents() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetAllStudentsByAge() {
+		fail("Not yet implemented");
+	}
+
+}

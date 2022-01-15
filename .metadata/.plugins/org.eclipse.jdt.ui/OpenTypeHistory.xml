@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Springmvctest001/C:\/Users\/admin\/.m2\/repository\/org\/springframework\/spring-web\/5.3.14\/spring-web-5.3.14.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-web-5.3.14.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-web=/=/maven.version=/5.3.14=/=/maven.scope=/compile=/&lt;org.springframework.web(WebApplicationInitializer.class[WebApplicationInitializer" modifiers="1537" timestamp="1640505536388"/>
+    <typeInfo handle="=bookapi/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sudip.spring.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1642090973989"/>
+    <typeInfo handle="=bookapi/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.sudip.spring.service{BookService.java[BookService" modifiers="513" timestamp="1642097608249"/>
+</typeInfoHistroy>

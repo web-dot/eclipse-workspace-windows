@@ -1,0 +1,49 @@
+package util;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.databind.MappingIterator;
+import com.fasterxml.jackson.databind.ObjectReader;
+import com.fasterxml.jackson.dataformat.csv.CsvMapper;
+import com.fasterxml.jackson.dataformat.csv.CsvSchema;
+import com.spring.domain.Student;
+
+@Component
+public class CsvReaderUtil {
+	
+	
+	public static List<Student> loadFromCsvFile(){
+		
+		
+		List<Student> studentList = new ArrayList<>();
+		
+		CsvMapper csvMapper = new CsvMapper();
+		CsvSchema schema = CsvSchema.emptySchema().withHeader();
+		
+		ObjectReader objReader = csvMapper.reader(Student.class).with(schema);
+		List<Student> students = new ArrayList<>();
+		
+		try {
+			
+			Reader reader = new FileReader("/st.txt");
+			MappingIterator<Student> mi = objReader.readValues(reader);
+			
+			while(mi.hasNext()) {
+				Student current = mi.next();
+				students.add(current);
+				System.out.println(current);
+			}
+		}
+		catch(IOException e) {
+			e.printStackTrace();
+		}
+		return students;
+	}
+	
+}

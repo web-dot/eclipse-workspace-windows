@@ -1,0 +1,55 @@
+package com.arunsir.problems;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Task04 {
+
+	
+	//task04
+	/*
+	public static String[] groupAnagrams(String[] str) {
+		
+	}
+	*/
+	
+	
+	
+	public static void main(String[] args) {
+		
+		String a = "ate";	
+		String b = "tea";  	
+		
+		
+		String[] arr = new String[] {"eat", "tea", "tan", "ate", "nat", "bat"};
+		int[] intArr = new int[arr.length];
+		String[] arr1 = new String[arr.length];
+		//int sum = 0;
+		for(int i = 0; i < arr.length; i++) {
+			int sum = 0;
+			//int temp = 0;
+			for(int j = 0; j < arr[i].length(); j++) {
+				char c = arr[i].charAt(j);
+				sum = sum + arr[i].charAt(j);
+				//temp = sum;
+			}
+			System.out.println("sum = ----------->" + sum);
+			System.out.println();
+			intArr[i] = sum;
+		}
+		System.out.println(Arrays.toString(intArr));
+		List<String> list = new ArrayList<String>();
+		for(int i = 0; i < intArr.length; i++) {
+			for(int j = 0; j < intArr.length; j++) {
+				if(intArr[i] == intArr[j]) {
+					list.add(arr[i]);
+				}
+			}
+		}
+		System.out.println(list);
+	}
+
+}

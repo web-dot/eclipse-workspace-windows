@@ -1,0 +1,28 @@
+package com.arunsir.problems;
+
+public class Task04 {
+
+	
+	//task04
+	/*
+	public static String[] groupAnagrams(String[] str) {
+		
+	}
+	*/
+	
+	
+	public static void main(String[] args) {
+		
+		String a = "ate";
+		String b = "tea";
+		
+		char[] c1 = a.toCharArray();
+		char[] c2 = b.toCharArray();
+		
+		System.out.println(c1);
+		
+		System.out.println(c2);
+
+	}
+
+}

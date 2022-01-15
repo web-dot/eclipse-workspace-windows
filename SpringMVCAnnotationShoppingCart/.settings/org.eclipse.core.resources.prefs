@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/org/o7planning/springmvcshoppingcart/controller/AdminController.java=UTF-8
+encoding//src/main/java/org/o7planning/springmvcshoppingcart/controller/MainController.java=UTF-8
+encoding//src/main/java/org/o7planning/springmvcshoppingcart/dao/impl/OrderDAOImpl.java=UTF-8
+encoding//src/main/java/org/o7planning/springmvcshoppingcart/dao/impl/ProductDAOImpl.java=UTF-8
+encoding//src/main/java/org/o7planning/springmvcshoppingcart/model/OrderDetailInfo.java=UTF-8
+encoding//src/main/java/org/o7planning/springmvcshoppingcart/model/OrderInfo.java=UTF-8
+encoding//src/main/java/org/o7planning/springmvcshoppingcart/model/ProductInfo.java=UTF-8

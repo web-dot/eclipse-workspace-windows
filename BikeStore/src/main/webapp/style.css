@@ -1,0 +1,29 @@
+.header{
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+.body{
+    margin-top: 50px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.body-section{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+select{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+}
+

@@ -1,0 +1,31 @@
+package com.spring.service;
+
+import java.lang.annotation.Annotation;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MessageService implements Service {
+	
+	MessageDAO 
+
+	public MessageService() {
+		System.out.println("in MSImpl no-arg constr");
+	}
+	
+	public String getJoke() {
+		System.out.println("in MSImpl->getJoke()");
+		return null;
+	}
+
+	public Class<? extends Annotation> annotationType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String value() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

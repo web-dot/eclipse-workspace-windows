@@ -1,0 +1,9 @@
+package com.Springmvctest002.welcome;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+
+public class AppConfig {
+
+}

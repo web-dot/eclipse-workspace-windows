@@ -1,0 +1,41 @@
+package com.arunsir.problems;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Task04 {
+
+	
+	//task04
+	/*
+	public static String[] groupAnagrams(String[] str) {
+		
+	}
+	*/
+	
+	
+	
+	public static void main(String[] args) {
+		
+		String a = "ate";	
+		String b = "tea";  	
+		
+		
+		String[] arr = new String[] {"eat", "tea", "tan", "ate", "nat", "bat"};
+		String[] newArr = new String[arr.length];
+		
+		for(int i = 0; i < arr.length; i++) {
+			int sum = 0;
+			for(int j = 0; j < arr[i].length(); j++) {
+				char c = arr[i].charAt(j);
+				//System.out.println(c);
+				sum = sum + arr[i].charAt(j);
+				//System.out.println(sum);
+			}
+			System.out.println(sum);
+			System.out.println();
+			if() {}
+		}
+	}
+
+}

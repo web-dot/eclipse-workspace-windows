@@ -1,0 +1,9 @@
+package com.springmvc.hello;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "com.springmvc.hello")
+public class AppConfig {
+
+}

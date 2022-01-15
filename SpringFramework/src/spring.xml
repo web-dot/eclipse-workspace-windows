@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+    <!-- bean definitions here -->
+<beans>
+
+	<bean id="asp" class="com.spring.test.AttendSprint"/>
+	<bean id="mco" class="com.spring.test.MergeCode"/>
+	
+	<bean id="sacc" class="com.spring.test.SavingsAccount"/>
+	<bean id="facc" class="com.spring.test.FixedAccount"/>
+	
+	<bean id="emp1" class="com.spring.test.Employee">
+		<constructor-arg value="Rahul" index="0"/>
+		<constructor-arg value="0124" index="1"/>
+		<constructor-arg>
+			<list>
+				<value>deeksha</value>
+				<value>neeraj</value>
+				<value>dhrithi</value>
+			</list>
+		</constructor-arg>
+		
+		<property name="account">
+			<list>
+				<ref bean="sacc"/>
+				<ref bean="facc"/>
+			</list>
+		</property>
+		
+	</bean>	
+	
+	
+	
+</beans> 

@@ -1,0 +1,7 @@
+package com.spring.dao;
+
+public interface MessageDBDAO {
+	
+	public String getAJoke();
+	//public String insertRegistrationData(RegBean bean);
+}

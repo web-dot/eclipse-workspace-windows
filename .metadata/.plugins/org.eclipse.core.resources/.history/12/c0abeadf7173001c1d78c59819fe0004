@@ -1,0 +1,14 @@
+package com.spring.dao;
+
+public class MessageDBDAOImpl implements MessageDBDAO {
+
+	public MessageDBDAOImpl() {
+		System.out.println("in MDBDAOImpl no-arg constr");
+	}
+	
+	public String getAJoke() {
+		System.out.println("in MDBDAOImpl->getAJoke()");
+		return "One day ";
+	}
+
+}

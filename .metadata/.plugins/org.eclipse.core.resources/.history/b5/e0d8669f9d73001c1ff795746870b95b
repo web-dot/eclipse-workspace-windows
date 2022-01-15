@@ -1,0 +1,6 @@
+package com.spring.config;
+
+@Con
+public class AppConfig {
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="use_default_location" value="true"/>
+		<item key="apply_working_sets" value="false"/>
+		<item key="project_location" value="C:\Users\admin\eclipse-workspace\TestGradle"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(7.3.3))"/>
+		<item key="auto_sync" value="false"/>
+		<item key="show_console_view" value="false"/>
+		<item key="build_scans" value="false"/>
+		<item key="offline_mode" value="false"/>
+		<list key="working_sets">
+		</list>
+	</section>
+</section>

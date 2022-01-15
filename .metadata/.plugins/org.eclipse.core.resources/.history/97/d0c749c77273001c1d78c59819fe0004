@@ -1,0 +1,8 @@
+package com.spring.service;
+
+public interface IService {
+	
+	public String getJoke();
+	//public String register(RegBean bean);
+
+}

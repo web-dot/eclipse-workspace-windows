@@ -1,0 +1,22 @@
+package com.spring.dao;
+
+import java.util.List;
+
+import com.spring.domain.Student;
+
+public class StudentsDAOImpl implements StudentsDAO {
+
+	
+	private List<Student> 
+	
+	
+	@Override
+	public List<Student> getStudents() {
+		
+		
+		
+		
+		return null;
+	}
+
+}

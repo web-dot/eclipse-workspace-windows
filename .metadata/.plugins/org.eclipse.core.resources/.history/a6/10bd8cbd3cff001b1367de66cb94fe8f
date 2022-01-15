@@ -1,0 +1,45 @@
+package com.uttara.practical05;
+
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class ArrayPgms {
+
+	//10
+	public static int maxAcrossArrays(int[] a1, int[] a2) {
+		Set<Integer> set = new TreeSet<Integer>();
+		
+		for(int i : a1) {
+			set.add(i);
+		}
+		for(int i : a2) {
+			set.add(i);
+		}
+		System.out.println(set);
+		int max = 0;
+		Iterator<Integer> iter = set.iterator();
+		while(iter.hasNext()) {
+			int i = iter.next();
+			if(i > max) {
+				max = i;
+			}
+		}
+		return max;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		int[] a1 = {2, 4, 7};
+		int[] a2 = {3, 15, 4};
+		int r = maxAcrossArrays(a1, a2);
+		
+		
+		
+
+	}
+
+}

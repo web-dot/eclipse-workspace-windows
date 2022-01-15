@@ -1,0 +1,14 @@
+package com.spring.dao;
+
+public class MessageDBDAOImpl implements MessageDBDAO {
+
+	public MessageDBDAOImpl() {
+		System.out.println("in MDBDAO");
+	}
+	
+	public String getAJokeFromDb() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:20:51 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-1 202
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:22:12 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-3 17
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:23:16 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-5 15
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:23:18 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-6 15
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:27:01 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-8 16
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:27:03 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-9 17
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:28:14 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-1 196
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:29:09 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-1 203
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:34:38 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:34:41 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [26/Dec/2021:21:36:38 +0530] "GET /SpringMVCAnnotationShoppingCart/ HTTP/1.1" 500 38306 http-bio-8080-exec-2 187

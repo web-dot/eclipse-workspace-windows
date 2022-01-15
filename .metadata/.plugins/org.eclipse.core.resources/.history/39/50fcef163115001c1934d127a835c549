@@ -1,0 +1,14 @@
+package com.uttara.dhrithi;
+
+public class TestDevice {
+	//Device is an abstract class. Cannot create object
+	//Device d = new Device();
+
+	//One of the use of abstract class : can invoke static members directly if it exists!!
+	//Device.print();
+	
+	Device d = new Mobile("Samsung", "Device");
+	personTester tp = new personTester("Repair Engineer Mohan");
+	
+	tpuse(d);
+}

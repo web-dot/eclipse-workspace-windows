@@ -1,0 +1,15 @@
+package Domain;
+
+public class User {
+	
+	
+	private String uname;
+	private String email;
+	
+	public User() {
+		System.out.println("in User class no-arg constructor");
+	}
+
+	
+	
+}

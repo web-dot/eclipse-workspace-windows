@@ -1,0 +1,14 @@
+package com.spring.domain;
+
+public class Student {
+	
+	private String id;
+	private String firstName;
+	private String lastName;
+	private String date_of_birth;
+	private String ethnicity;
+	private String gender;
+	
+	
+	
+}

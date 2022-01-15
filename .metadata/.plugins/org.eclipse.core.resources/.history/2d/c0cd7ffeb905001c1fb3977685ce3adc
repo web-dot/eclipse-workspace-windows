@@ -1,0 +1,24 @@
+package com.arunsir.problems;
+
+public class Task03 {
+	
+	//Task 3
+	public static String reverseOrder(String s) {
+		String[] strA
+		int length = strArr.length;
+		
+		if(strArr.length <= 1) {
+			System.out.println("The string has either only one word or it is a empty string");
+		}
+		else {
+			String[]
+		}
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

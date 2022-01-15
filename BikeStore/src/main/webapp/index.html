@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>ServletApp</title>
+</head>
+<body>
+<form action='GetProducts' method='GET'>
+  <div class="header-container">
+    <div class="header">
+      <h1 class="title">Bike Stores</h1>
+    </div>
+  </div>
+  <div class="body">
+    <div class="body-section">
+      <p>Select brand</p>
+      <select id="brands" name="brand">
+        <option>Electra</option>
+        <option>Haro</option>
+      </select>
+    </div>
+    <div class="body-section">
+        <p>Select Catagory</p>
+      <select id="category" name="category">
+            <option>Road Bike</option>
+            <option>Mountain Bike</option>
+      </select>
+    </div>
+    <button id="submitBtn">Submit</button>
+  </div>
+</form>
+
+  <script>
+	/*
+    var btn = document.getElementById('submitBtn');
+    var brand = document.getElementById('brands');
+    var catagory = document.getElementById('category');
+
+    btn.addEventListener('click', function(e){
+      console.log(brand.value);
+      console.log(catagory.value);
+      var brandVal = brand.value;
+      var catVal = catagory.value;
+
+      var url1 = 'http://localhost:8080/BikeStore/GetProducts'
+
+      if(brandVal == 'Electra' && catVal == 'Road Bike'){
+      var xReq = new XMLHttpRequest();
+      xReq.open('GET', url1);
+      xReq.responseType = 'text';
+      xReq.send(null);
+      console.log("hello");
+      }
+    });
+	*/
+    
+  </script>
+</body>
+</html>

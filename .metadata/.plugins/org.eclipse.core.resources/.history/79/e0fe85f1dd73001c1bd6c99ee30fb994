@@ -1,0 +1,50 @@
+package com.spring.domain;
+
+public class Student {
+	
+	private String id;
+	private String firstName;
+	private String lastName;
+	private String date_of_birth;
+	private String ethnicity;
+	private String gender;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getDate_of_birth() {
+		return date_of_birth;
+	}
+	public void setDate_of_birth(String date_of_birth) {
+		this.date_of_birth = date_of_birth;
+	}
+	public String getEthnicity() {
+		return ethnicity;
+	}
+	public void setEthnicity(String ethnicity) {
+		this.ethnicity = ethnicity;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
+	
+	
+}

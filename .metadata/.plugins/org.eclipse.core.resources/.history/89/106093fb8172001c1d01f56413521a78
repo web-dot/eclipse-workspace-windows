@@ -1,0 +1,6 @@
+package com.Springmvctest002.welcome;
+
+@Con
+public class AppConfig {
+
+}

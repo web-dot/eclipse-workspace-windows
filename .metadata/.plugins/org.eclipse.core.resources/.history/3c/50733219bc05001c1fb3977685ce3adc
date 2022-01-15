@@ -1,0 +1,36 @@
+package com.arunsir.problems;
+
+import java.util.Arrays;
+
+public class Task03 {
+	
+	//Task 3
+	public static String reverseOrder(String s) {
+		String[] strArr = s.split(" ");
+		System.out.println(Arrays.toString(strArr));
+		String newStr = "";
+		
+		if(strArr.length <= 1) {
+			System.out.println("The string has either only one word or it is a empty string");
+		}
+		else {
+			for(int i = strArr.length-1; i >= 0; i--) {
+				if(!strArr[i].equals(" ")) {
+					newStr = newStr + strArr[i].trim();
+				}
+			}
+		}
+		return newStr.trim();
+	}
+	
+
+	public static void main(String[] args) {
+		
+		String s1 = "the sky is blue";
+		String s2 = "hello  world";
+		
+		System.out.println(reverseOrder(s1));
+		System.out.println(reverseOrder(s2));
+	}
+
+}

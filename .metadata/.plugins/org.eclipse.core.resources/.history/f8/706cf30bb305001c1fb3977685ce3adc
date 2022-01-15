@@ -1,0 +1,15 @@
+package com.arunsir.problems;
+
+	//common prefix
+
+	public static String commonPrefix() {}
+
+	
+public class Task01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.uttara.practical02;
+
+public class PrintCharSymbols {
+
+	public static void main(String[] args) {
+		
+		
+		for(int i = 1; i <= 100; i++) {
+			System.out.println((char)i);
+		}
+		
+		int i = 100;
+		System.out.println((char)100);
+
+	}
+
+}

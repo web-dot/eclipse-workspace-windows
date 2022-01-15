@@ -1,0 +1,32 @@
+package Domain;
+
+public class User {
+	
+	
+	private String uname;
+	private String email;
+	
+	public User() {
+		System.out.println("in User class no-arg constructor");
+	}
+
+	public String getUname() {
+		return uname;
+	}
+
+	public void setUname(String uname) {
+		this.uname = uname;
+		System.out.println("in USR-> setUname");
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	
+	
+}

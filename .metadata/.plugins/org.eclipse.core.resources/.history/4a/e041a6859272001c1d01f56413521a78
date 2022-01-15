@@ -1,0 +1,16 @@
+package com.springmvc.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class QuoteService implements QuoteServiceInterface {
+	
+	QuoteService quoteService;
+	
+	@Override
+	public String getQuote() {
+		
+		String[] quotes = {"To be or not to be!", "Be yourself; everyone else is already taken.", " room without books is like a body without a soul", "If you tell the truth, you don't have to remember anything."};
+		return quotes[((int)Math.random()*quotes.length)];
+	}
+}

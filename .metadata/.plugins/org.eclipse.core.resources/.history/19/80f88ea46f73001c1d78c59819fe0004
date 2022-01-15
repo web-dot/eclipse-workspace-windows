@@ -1,0 +1,10 @@
+package com.spring.service;
+
+public class MessageService implements Service {
+
+	public String getJoke() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

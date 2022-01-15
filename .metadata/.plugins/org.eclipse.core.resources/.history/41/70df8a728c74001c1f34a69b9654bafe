@@ -1,0 +1,7 @@
+package com.sudip.spring.dao;
+
+public interface BookDAO {
+	
+	//Save the record
+	
+}

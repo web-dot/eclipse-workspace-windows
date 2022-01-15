@@ -1,0 +1,20 @@
+package com.uttara.practical05;
+
+
+
+class Person{
+	String name;
+	Car car;
+}
+
+
+
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.arunsir.problems;
+
+	//common prefix
+
+	public static String commonPrefix(String[] strArr) {
+		
+		String sub1 = strArr[0].substring(0, 3);
+		System.out.println(sub1);
+		return "wait"
+	}
+
+	
+public class Task01 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

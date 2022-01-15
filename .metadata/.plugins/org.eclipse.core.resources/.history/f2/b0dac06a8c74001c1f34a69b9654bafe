@@ -1,0 +1,6 @@
+package com.sudip.spring.dao;
+
+public interface BookDAO {
+	
+	//
+}

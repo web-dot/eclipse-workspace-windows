@@ -1,0 +1,12 @@
+package com.sudip.spring.dao;
+
+import com.sudip.spring.model.Book;
+
+public interface BookDAO {
+	
+	//Save the record
+	long save(Book book);
+	
+	//Get a single record
+	Book get()
+}

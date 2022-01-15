@@ -1,0 +1,7 @@
+package com.spring.service;
+
+public interface StudentService {
+	
+	public void addStudent();
+	public Student
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;bookapi&apos;&#x0D;&#x0A;- Original project: &apos;bookapi&apos;&#x0D;&#x0A;- Original element: &apos;bookapi/src/main/java/org.springframework.context.annotation&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.springframework.context.annotation" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.springframework.context" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.springframework" element4="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1640515128343" subPackages="false" version="1.0"/>
+</session>

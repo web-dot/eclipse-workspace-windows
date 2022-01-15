@@ -1,0 +1,12 @@
+#
+#Sat Jan 15 18:08:48 IST 2022
+derivedResources=.gradle;build;lib/build
+linkedResources=
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+managedNatures=
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+buildScriptPath=build.gradle
+subprojectPaths=lib
+hasAutoBuildTasks=false
+gradleVersion=7.3.3

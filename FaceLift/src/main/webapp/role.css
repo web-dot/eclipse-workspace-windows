@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body{
+	background-color: #130f40;
+	font-family: font-family: 'Oswald', sans-serif;
+}
+.role{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	/*border: 1px solid white;*/
+	margin-top: 100px;
+}
+.rider,
+.ride{
+	width: 45%;
+	height: 400px;
+	background-color: #130f40;
+	/*border: 1px solid white;*/
+	display: flex;
+	flex-direction: column;
+}
+.button{
+	width: 80%;
+	height: 100px;
+	background:#f9ca24; 
+	border-radius: 10px;
+	border: none;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+img{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+a{
+	font-size: 60px;
+	color: white;
+	text-decoration: none;
+}

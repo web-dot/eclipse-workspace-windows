@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="3" hostname="DESKTOP-CSVDE04" id="0" name="QuadraticTest" package="warmup" skipped="0" tests="8" time="0.243" timestamp="2021-08-16T22:01:58">
+      <properties>
+          <property name="ant.library.dir" value="C:\Users\admin\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib" />
+
+          <property name="java.specification.version" value="16" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="which.tests.ran" value="BETA" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.class.path" value="C:\Users\admin\eclipse-workspace\ps1-warmup\lib\junit-4.12.jar;C:\Users\admin\eclipse-workspace\ps1-warmup\lib\hamcrest-core-1.3.jar;C:\Users\admin\eclipse-workspace\ps1-warmup\.grader\bin-student;C:\Users\admin\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-launcher.jar;C:\Users\admin\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar;C:\Users\admin\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit.jar;C:\Users\admin\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant-junit4.jar" />
+
+          <property name="project.name" value="ps1-warmup" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="java.vendor.url" value="https://java.oracle.com/" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="java.vm.specification.version" value="16" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="problem.set" value="ps1" />
+
+          <property name="sun.boot.library.path" value="C:\Users\admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner warmup.QuadraticTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\admin\eclipse-workspace\ps1-warmup\.grader\TEST-warmup.QuadraticTest.xml crashfile=C:\Users\admin\eclipse-workspace\ps1-warmup\.grader\junitvmwatcher15035553829738237222.properties propsfile=C:\Users\admin\eclipse-workspace\ps1-warmup\.grader\junit9860944847186274752.properties" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="beta.grader.jar" value="ps1-beta-grader.jar" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\admin" />
+
+          <property name="user.language" value="en" />
+
+          <property name="eclipse.pdebuild.templates" value="C:\Users\admin\eclipse\jee-2021-03\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.1000.v20210130-0813\templates" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.version.date" value="2021-04-20" />
+
+          <property name="java.home" value="C:\Users\admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="basedir" value="C:\Users\admin\eclipse-workspace\ps1-warmup" />
+
+          <property name="eclipse.pdebuild.home" value="C:\Users\admin\eclipse\jee-2021-03\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.1000.v20210130-0813\." />
+
+          <property name="java.vm.compressedOopsMode" value="32-bit" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="ant.java.version" value="16" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="final.grader.jar" value="ps1-final-grader.jar" />
+
+          <property name="user.script" value="" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.runtime.version" value="16.0.1+9-24" />
+
+          <property name="user.name" value="admin" />
+
+          <property name="ant.file" value="C:\Users\admin\eclipse-workspace\ps1-warmup\grader.xml" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+
+          <property name="ant.core.lib" value="C:\Users\admin\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\" />
+
+          <property name="java.version" value="16.0.1" />
+
+          <property name="user.dir" value="C:\Users\admin\eclipse-workspace\ps1-warmup" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.home" value="C:\Users\admin\.p2\pool\plugins\org.apache.ant_1.10.9.v20201106-1946" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.9 compiled on September 27 2020" />
+
+          <property name="eclipse.pdebuild.scripts" value="C:\Users\admin\eclipse\jee-2021-03\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.1000.v20210130-0813\scripts" />
+
+          <property name="java.library.path" value="C:\Users\admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/Users/admin/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Users\admin\eclipse-workspace\JavaCodeAndRecap\src\com\recap\array;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Azure Data Studio\bin;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\Desktop;;." />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="java.vm.version" value="16.0.1+9-24" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="java.class.version" value="60.0" />
+
+          <property name="ant.project.default-target" value="all" />
+
+      </properties>
+
+      <testcase classname="warmup.QuadraticTest" name="testOneRoot" time="0.002" />
+
+      <testcase classname="warmup.QuadraticTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testOneZeroRoot" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testPositiveRoots" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testBothZeroRoots" time="0.0" />
+
+      <testcase classname="warmup.QuadraticTest" name="testOppositeSignRoots" time="0.019">
+          <failure message="expected:&lt;[3, 11]&gt; but was:&lt;[147, 539]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[3, 11]&gt; but was:&lt;[147, 539]&gt;
+	at warmup.QuadraticTest.testOppositeSignRoots(QuadraticTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+
+      </testcase>
+
+      <testcase classname="warmup.QuadraticTest" name="testNegativeRoots" time="0.001">
+          <failure message="expected:&lt;[-2, -8]&gt; but was:&lt;[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[-2, -8]&gt; but was:&lt;[]&gt;
+	at warmup.QuadraticTest.testNegativeRoots(QuadraticTest.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+
+      </testcase>
+
+      <testcase classname="warmup.QuadraticTest" name="testLargeRoots" time="0.001">
+          <failure message="expected:&lt;[-45000, 45000]&gt; but was:&lt;[]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[-45000, 45000]&gt; but was:&lt;[]&gt;
+	at warmup.QuadraticTest.testLargeRoots(QuadraticTest.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[d = 0.0
+[13]
+d = 81.0
+[0, 9]
+d = 9.0
+[5, 8]
+d = 0.0
+[0]
+b = 98
+c = -231
+roots = [147, 539]
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

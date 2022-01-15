@@ -1,0 +1,19 @@
+package com.spring.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.spring.domain.Student;
+
+@Service
+public class StudentServiceImpl implements StudentService {
+	
+	StudentsDAO 
+	
+	@Override
+	public List<Student> getAllStudents() {
+		
+		return null;
+	}
+}

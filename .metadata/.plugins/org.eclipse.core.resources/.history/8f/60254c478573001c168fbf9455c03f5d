@@ -1,0 +1,68 @@
+package Domain;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Past;
+
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.format.annotation.DateTimeFormat;
+
+public class RegBean implements Serializable {
+	
+	@NotBlank
+	private String uname;
+	
+	@NotBlank
+	@Email
+	private String email;
+	
+	@NotBlank
+	@Length(min = 5, max = 10)
+	private String pass;
+	
+	@NotBlank
+	@Length(min = 5, max = 10)
+	private String rpass;
+	
+	
+	public RegBean() {
+		System.out.println("in RegBean no-arg cons");
+	}
+	
+	
+	public String getUname() {
+		return uname;
+	}
+	public void setUname(String uname) {
+		this.uname = uname;
+		System.out.println("in RegBean->setUname() " + uname);
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+		System.out.println("in RegBean->setEmail() " + email);
+	}
+	public String getPass() {
+		return pass;
+	}
+	public void setPass(String pass) {
+		this.pass = pass;
+		System.out.println("in RegBean->setPass() " + pass);
+	}
+	public String getRpass() {
+		return rpass;
+	}
+	public void setRpass(String rpass) {
+		this.rpass = rpass;
+		System.out.println("in RegBean->setRpass() " + rpass);
+	}
+
+
+	
+} 

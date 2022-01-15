@@ -1,0 +1,21 @@
+package com.springmvc.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+@Service
+
+public class QuoteService implements QuoteServiceInterface {
+	
+	public QuoteService() {
+		System.out.println("in QS no-arg constructor -> QS object is wired to HC due to @Autowired");
+	}
+	
+	@Override
+	public String getQuote() {
+		System.out.println("in QS->getQuote()");
+		String[] quotes = {"To be or not to be!", "Be yourself; everyone else is already taken.", " room without books is like a body without a soul", "If you tell the truth, you don't have to remember anything."};
+		return quotes[((int)Math.floor(Math.random()*quotes.length))];
+	}
+}

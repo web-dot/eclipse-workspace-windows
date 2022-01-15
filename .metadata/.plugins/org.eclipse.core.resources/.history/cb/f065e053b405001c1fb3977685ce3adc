@@ -1,0 +1,26 @@
+package com.arunsir.problems;
+
+
+	
+public class Task01 {
+	
+	
+	//common prefix
+	public static String commonPrefix(String[] strArr) {
+		
+		if(strArr[0].substring(0, )) {}
+			
+		}
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+		String[] strArr01 = new String[] 
+
+	}
+
+}

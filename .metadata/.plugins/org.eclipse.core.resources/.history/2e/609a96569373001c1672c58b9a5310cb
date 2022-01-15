@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="lib">
+        <property name="context-root" value="lib"/>
+        <property name="java-output-path" value="/lib/bin/default"/>
+    </wb-module>
+</project-modules>

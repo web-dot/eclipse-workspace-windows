@@ -1,0 +1,5 @@
+package com.sudip.spring.service;
+
+public interface BookService {
+
+}

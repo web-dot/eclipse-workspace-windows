@@ -1,0 +1,27 @@
+package com.arunsir.problems;
+
+public class Task02 {
+
+	//Task 02
+	public static int lastWordLength(String s) {
+		
+		if(s.length() <= 1) {
+			return s.length();
+		}
+		else if(str.length) {
+		String[] strArr = s.split(" ");
+		for(int i = strArr.length; i > 0; i--) {
+			int length = strArr[i].length();
+			}
+		}
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}
