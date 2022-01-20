@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: mflix.api.daos.MigrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.616 s <<< FAILURE! - in mflix.api.daos.MigrationTest
+testAllDocumentsIMDBRatingNumber(mflix.api.daos.MigrationTest)  Time elapsed: 0.31 s  <<< FAILURE!
+java.lang.AssertionError: Should not find documents where `imdb.rating` is of not of `number` type expected:<0> but was:<61>
+	at mflix.api.daos.MigrationTest.testAllDocumentsIMDBRatingNumber(MigrationTest.java:42)
+
+testAllDocumentsUpdateDateIsDateType(mflix.api.daos.MigrationTest)  Time elapsed: 0.306 s  <<< FAILURE!
+java.lang.AssertionError: Should not find documents where `lastupdated` is of `string` type expected:<0> but was:<23530>
+	at mflix.api.daos.MigrationTest.testAllDocumentsUpdateDateIsDateType(MigrationTest.java:31)
+
